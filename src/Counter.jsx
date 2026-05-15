@@ -10,8 +10,11 @@ function Counter() {
         <button className=' bg-blue-200 text-black-800 hover:bg-blue-300 rounded p-2' onClick={() => setcount(count + 1)}>
             click to increament (+1)
         </button>
-            <button className=' bg-blue-200 text-black-800 hover:bg-blue-300 rounded p-2' onClick={() => setcount(count - 1)}>
+        <button className=' bg-blue-200 text-black-800 hover:bg-blue-300 rounded p-2' onClick={() => setcount(count - 1)}>
                 click to decrement (-1)
+            </button>
+        <button className=' bg-blue-200 text-black-800 hover:bg-blue-300 rounded p-2' onClick={() => setcount(0)}>
+                click to reset
             </button>
     </div>
   )
